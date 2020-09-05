@@ -1,6 +1,7 @@
 version: '3'
 services:
   flutter:
+    container_name: flutter
     build: .
     stdin_open: true
     tty: true
