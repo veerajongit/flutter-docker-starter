@@ -5,6 +5,7 @@ services:
     build: .
     stdin_open: true
     tty: true
+    network_mode: "host"
     volumes: 
         - ./:/home/developer/src
     working_dir: /home/developer/src
