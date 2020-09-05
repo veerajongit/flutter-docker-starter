@@ -30,3 +30,6 @@ ENV PATH "$PATH:/home/developer/Android/Sdk/tools/bin/ANDROID_SDK_ROOT/tools"
 
 # Run basic check to download Dark SDK
 RUN flutter doctor
+RUN flutter create myapp
+RUN cd myapp && flutter build apk
+RUN rm -Rf myapp
