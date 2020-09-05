@@ -6,3 +6,4 @@ services:
     tty: true
     volumes: 
         - ./:/home/developer/src
+    working_dir: /home/developer/src
