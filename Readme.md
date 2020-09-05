@@ -17,3 +17,10 @@
 
 ### To build android apk without getting into docker
 ```docker exec -it flutter bash -c 'flutter build apk'```
+
+## To run android in emulator on host system, start your emulator
+```
+adb devices
+adb connect host.docker.internal:5555
+flutter run
+```
