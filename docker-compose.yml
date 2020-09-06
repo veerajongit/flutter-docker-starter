@@ -2,7 +2,7 @@ version: '3'
 services:
   flutter:
     container_name: flutter
-    build: .
+    image: veerajs/flutter:0.2
     stdin_open: true
     tty: true
     network_mode: "host"
