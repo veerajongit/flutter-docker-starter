@@ -7,5 +7,5 @@ services:
     tty: true
     network_mode: "host"
     volumes: 
-        - ./:/home/developer/src
-    working_dir: /home/developer/src
+        - ./:/home/default/src
+    working_dir: /home/default/src
