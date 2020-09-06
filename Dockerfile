@@ -15,4 +15,4 @@ RUN git clone https://github.com/flutter/flutter.git /opt/flutter
 ENV PATH $PATH:/opt/flutter/bin
 
 # Run basic check to download Dark SDK
-RUN /opt/flutter/bin/flutter doctor
+RUN flutter doctor
