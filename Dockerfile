@@ -16,3 +16,8 @@ ENV PATH $PATH:/opt/flutter/bin
 
 # Run basic check to download Dark SDK
 RUN flutter doctor
+
+# Create User
+RUN adduser -S developer
+USER developer
+WORKDIR /home/developer
